@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 
 function Tocollection() {
   const navigate = useNavigate();
-//nav to her
+  //nav to her
   const handleButtonClick = () => {
     navigate("/Forher");
   };

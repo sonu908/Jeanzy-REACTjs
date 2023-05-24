@@ -2,7 +2,7 @@ import React from "react";
 import { Card } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
-function Cards({ item }) {
+function Cardswomen({ item }) {
   console.log(item);
 
   var finalPrice = item.price - 9;
@@ -12,7 +12,7 @@ function Cards({ item }) {
   // Now you can use the slicedPriceNumber for further calculations or comparisons
 
   return (
-    <Link to={`/Viewjean/${item.id}`}>
+    <Link to={`/Viewwomen/${item.id}`}>
       <Card
         style={{
           width: "15em",
@@ -29,4 +29,4 @@ function Cards({ item }) {
   );
 }
 
-export default Cards;
+export default Cardswomen;
